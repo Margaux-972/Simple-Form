@@ -24,6 +24,7 @@ function App() {
             setEmail={setEmail}
             confirm={confirm}
             setConfirm={setConfirm}
+            setPage={setPage}
           />
         ) : (
           <StepTwo
@@ -33,6 +34,7 @@ function App() {
             setPassword={setPassword}
             email={email}
             setEmail={setEmail}
+            setPage={setPage}
           />
         )}
       </main>

@@ -8,7 +8,6 @@ const StepTwo = ({ name, email, password, setPage }) => {
         <p>Password : {password}</p>
       </div>
       <button
-        className="result"
         onClick={() => {
           setPage(true);
         }}

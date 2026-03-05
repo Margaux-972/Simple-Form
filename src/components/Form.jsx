@@ -27,6 +27,7 @@ const Form = ({
           type="text"
           id="name"
           placeholder="Jean Dupont"
+          value={name}
           onChange={(event) => {
             setName(event.target.value);
           }}
@@ -36,6 +37,7 @@ const Form = ({
           type="email"
           id="email"
           placeholder="jeandupont@lereacteur.io"
+          value={email}
           onChange={(event) => {
             setEmail(event.target.value);
           }}
@@ -45,6 +47,7 @@ const Form = ({
           type="password"
           id="password"
           placeholder="lErEaCtEuR2020"
+          value={password}
           onChange={(event) => {
             setPassword(event.target.value);
           }}
@@ -54,6 +57,7 @@ const Form = ({
           type="password"
           id="confirm"
           placeholder="lErEaCtEuR2020"
+          value={confirm}
           onChange={(event) => {
             setConfirm(event.target.value);
           }}
