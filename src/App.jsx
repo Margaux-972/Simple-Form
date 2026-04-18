@@ -29,11 +29,8 @@ function App() {
         ) : (
           <StepTwo
             name={name}
-            setName={setName}
             password={password}
-            setPassword={setPassword}
             email={email}
-            setEmail={setEmail}
             setPage={setPage}
           />
         )}
