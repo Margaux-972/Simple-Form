@@ -1,16 +1,38 @@
-# React + Vite
+# Projet React – Formulaire d'inscription
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objectif
 
-Currently, two official plugins are available:
+Dans cet exercice, l'objectif est de créer un formulaire d'inscription simple en React, en utilisant plusieurs composants et en intégrant des fonctionnalités interactives.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités attendues
 
-## React Compiler
+- Création d’un formulaire avec plusieurs champs (ex : email, mot de passe, confirmation du mot de passe)
+- Validation du formulaire
+- Affichage d’un écran de résultat après validation
+- Gestion des erreurs sur les mots de passe
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Structure du projet
 
-## Expanding the ESLint configuration
+Le projet doit être organisé avec au minimum les composants suivants :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Form : gère le formulaire d'inscription
+- StepTwo : affiche les informations après validation
+- Footer : pied de page de l'application
+
+## Technologies utilisées
+
+- React
+- CSS
+
+## Bonus (facultatif)
+
+- Ajouter des animations
+- Améliorer les messages d’erreur
+- Ajouter une validation avancée (longueur du mot de passe, caractères spéciaux, etc.)
+- Utiliser une librairie d’icônes (ex : Font Awesome)
+
+## Résultat attendu
+
+- Un formulaire fonctionnel
+- Une navigation entre les étapes
+- Une bonne expérience utilisateur (UX)
