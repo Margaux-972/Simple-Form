@@ -3,7 +3,9 @@ const Footer = () => {
     <footer>
       <p>
         Made with <span>React</span> at <span>Le Reacteur</span> by{" "}
-        <span>Margaux</span>
+        <a href="https://github.com/Margaux-972" target="_blank">
+          Margaux
+        </a>
       </p>
     </footer>
   );

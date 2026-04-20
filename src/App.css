@@ -4,6 +4,7 @@ body {
 }
 h1 {
   font-size: 40px;
+  font-weight: bold;
 }
 
 main {
@@ -26,11 +27,14 @@ label {
 input {
   padding: 10px;
   margin: 10px 0;
-  /* border-radius: 5px; */
   width: 200px;
   border-radius: 5px;
   border: 1px solid lightgray;
   background-color: #f2f2f2;
+}
+
+.error {
+  border: 1px solid red;
 }
 
 .step2 {
@@ -55,6 +59,7 @@ button {
   height: 50px;
   border-radius: 5px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 footer {
@@ -66,4 +71,18 @@ footer p {
 
 footer span {
   font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.eye {
+  position: relative;
+  z-index: 1;
+  right: 30px;
+  color: #7b7b7b;
+  cursor: pointer;
 }
